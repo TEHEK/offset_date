@@ -210,10 +210,10 @@ interval. It would trim everything after that modifier.
 
 Trimming date is like rounding a number to a certain precision. 
 
-`y~` will keep year and trim month, date, hours, minutes, seconds and milliseconds
-`M~` will keep year and month and trim date, etc.
-`d~` will keep year, month and date.
-`w~` will round date to the beginning of the current week. (I think it requires localization, tho)
+    `y~` will keep year and trim month, date, hours, minutes, seconds and milliseconds
+    `M~` will keep year and month and trim date, etc.
+    `d~` will keep year, month and date.
+    `w~` will round date to the beginning of the current week. (I think it requires localization, tho)
 
 You can think of "~" as equivalent of *"go to the beginning of ..."*;
 
@@ -279,4 +279,5 @@ If anyone knows how to make it a nice npm package, pm me! ^_^
 
 
 Cheerz,
+
 TEHEK =]
