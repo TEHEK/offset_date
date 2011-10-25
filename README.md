@@ -3,41 +3,44 @@ Hello, githubs! :)
 # Description
 A small utility to easily add/subtract time intervals from JavaScript Date object.
 
-# Syntax
-```
+## Syntax
+
+```javascript
 	offsetDate(interval, date)
 ```
 
-## Parameters
+### Parameters
+
 	`interval` - {String} - time interval in special format
 	`date`	- starting date
 	
-## Output
+### Output
+
 	Outputs JS Date object. Original `date` value will be left intact (returns modified copy)
 	
 # Interval syntax
 
 I struggled a lot to make this syntax clean, predictable and easy to remember (some features were lost during the amputation process though -_-)
 
-## Format
+### Format
 
 Typical format is as follows:
-```
+
     <sign><value><modifier>
-```
+
 
 Typical examples of the format are:
-```
+
     +1y      // add 1 year 
     -2M      // subtract 2 months
-```
+
 
 Easy, huh? :)
 
 ### List of supported modifiers
 Supported modifiers should look familiar if you ever used any other JS date-related library:
 
-```
+
     y - years
     M - months
     d - days
@@ -47,7 +50,7 @@ Supported modifiers should look familiar if you ever used any other JS date-rela
     ms - milliseconds
     w - weeks
     MM - months (with side effect*)
-```
+
 
 # Examples
 
