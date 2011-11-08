@@ -54,7 +54,7 @@ Supported modifiers should look familiar if you ever used any other JS date-rela
 
 # Examples
 
-So lets get down to the examples and use cases:
+So let's get down to the examples and use cases:
 
 ## Level 1 magic
 
@@ -130,7 +130,7 @@ struggling with dates and months and leap years.
 But what if you would like to add some arbitrary number of days but prevent Date from
 jumping to the next month?
 
-You can do so by adding "!" at the end of the interval. "!" guarantees that given 
+You can do this by adding "!" at the end of the interval. "!" guarantees that given 
 parameter will remain withing an applicable range. *Month changes may affect dates*.
 For everyone else, "!" means other parameters will be left intact.
 
@@ -161,7 +161,7 @@ Most of the time, however, just adding interval would not be enough.
 ```
 
 Sometimes we need to truncate time or even date information. For example if we want to know 
-whether some date is in some date range.
+wether some date is in some date range.
 
 Let's say, I need to check whether Alice's birthday is this month
 
@@ -180,7 +180,7 @@ Let's say, I need to check whether Alice's birthday is this month
 ```
 
 This happens because `offset('-99d!', today)` results in `2011-02-01 13:30:25` because as we said
-before "d!" will not affect time. 
+before "d!" does not affect time. 
 
 So you have to keep "!"-ing for hours and minutes and seconds and milliseconds (no pun intended) :)
 
@@ -268,14 +268,12 @@ Oh, yeah... keep "!" before "~".
 
 # For developers
 
-If you would like to contribute to this small utility, feel free to send pull requests!
+If you would like to contribute to this small project, feel free to send pull requests!
 
-Please make sure that the tests in `/test/SpecRunner.htm` are not broken. (Just open it in any 
-browser and make sure it's green :)). And submit test cases for your fixes.
+Please, make sure that tests in `/test/SpecRunner.htm` are not broken. (Just open it in any 
+browser and make sure it's green :)). And submit test cases along with your pull requests.
 
 It's Open-source and thus free and open to use for whatever you want.
-
-If anyone knows how to make it a nice npm package, pm me! ^_^
 
 
 Cheerz,
