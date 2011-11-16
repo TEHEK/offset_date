@@ -120,7 +120,7 @@ struggling with dates and months and leap years.
 	// and it also takes leap years into consideration
 	offsetDate('+1M', new Date(2012, 0, 30)); 	// 2012-02-29
 	
-	// if you really REALLY want that native weird behaviour, here's the gun,
+	// if you really REALLY want that native weird behavior, here's the gun,
 	// you know where to find your foot
 	offsetDate('+1MM', date);		// 2011-03-02
 ```
@@ -161,7 +161,7 @@ Most of the time, however, just adding interval would not be enough.
 ```
 
 Sometimes we need to truncate time or even date information. For example if we want to know 
-wether some date is in some date range.
+whether some date is in some date range.
 
 Let's say, I need to check whether Alice's birthday is this month
 
@@ -263,7 +263,7 @@ Oh, yeah... keep "!" before "~".
 	May be "2008y" or something will be the way to do it, but all my previous attempts made
 	syntax too complicated to remember.
 	
-* Weeks are bounded by month in strict mode ("w!"), not sure if anyone needs that
+* Weeks are bound by month in strict mode ("w!"), not sure if anyone needs that
 
 
 # For developers

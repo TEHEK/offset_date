@@ -267,7 +267,7 @@
 		
 		return result;
 	}
-	console.log(exports);
+	
 	exports['offsetDate'] = offsetDate;
 })((function () {
 	
