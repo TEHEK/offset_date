@@ -71,7 +71,7 @@
 			result.setMonth(val);
 			
 			// again... if month leaped forward, revert to the last day of the month
-			if (result.getMonth() != val % 12) {
+			if (result.getMonth() != (val + 12) % 12) {
 				result.setDate(0);
 			}
 			
